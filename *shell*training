@@ -1,0 +1,417 @@
+[?25h[0G[?25h[0G
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/webapp
+$ cd ../training/st_8/
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/st_8
+$ cd ../mongodb-cluster/
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   boot-scripts/init.sh
+	modified:   config.yaml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'adding shard counts'
+[dev 128523a] adding shard counts
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git psh
+git: 'psh' is not a git command. See 'git --help'.
+
+Did you mean this?
+	push
+
+[1] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 486 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   2289bef..128523a  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixign vars'
+[dev 5ad836e] fixign vars
+ 1 file changed, 3 deletions(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   128523a..5ad836e  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working tree clean
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working tree clean
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working tree clean
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Everything up-to-date
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Everything up-to-date
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m '  C-c C-c
+
+[1] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixign vars'
+[dev 0f7cb22] fixign vars
+ 1 file changed, 2 insertions(+)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 314 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   5ad836e..0f7cb22  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ adding shard counts
+bash: adding: command not found
+
+[127] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Everything up-to-date
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working tree clean
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixing config.yaml'
+[dev 1ee686d] fixing config.yaml
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 305 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   0f7cb22..1ee686d  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+nothing to commit, working tree clean
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixing config.yaml'
+[dev 869b302] fixing config.yaml
+ 1 file changed, 321 insertions(+), 320 deletions(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.00 KiB | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   1ee686d..869b302  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixing config.yaml'
+[dev 29baa1e] fixing config.yaml
+ 1 file changed, 3 insertions(+)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 416 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   869b302..29baa1e  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ diff --git .
+diff: unrecognized option `--git'
+diff: Try `diff --help' for more information.
+
+[2] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ diff --git
+diff: unrecognized option `--git'
+diff: Try `diff --help' for more information.
+
+[2] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 423 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   29baa1e..57e5551  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'chmod +x the scripts'
+[dev 289960c] chmod +x the scripts
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 487 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   57e5551..289960c  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'bind ip added'
+[dev cacf724] bind ip added
+ 1 file changed, 1 insertion(+)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 399 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   289960c..cacf724  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixing cluster addresses stuff'
+[dev dffe893] fixing cluster addresses stuff
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 427 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   cacf724..dffe893  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git diff HEAD~2
+diff --git a/boot-scripts/init.sh b/boot-scripts/init.sh
+index dd22e1d..3bde976 100644
+--- a/boot-scripts/init.sh
++++ b/boot-scripts/init.sh
+@@ -116,7 +116,7 @@ enabled=1" > /etc/yum.repos.d/mongodb-org-${version}.repo
+         ./orchestrator.sh -c -n "${SHARD}_${UNIQUE_NAME}"
+         ./orchestrator.sh -s "WORKING" -n "${SHARD}_${UNIQUE_NAME}"
+         ./orchestrator.sh -w "WORKING=${NODES}" -n "${SHARD}_${UNIQUE_NAME}"
+-        IPADDRS=$(./orchestrator.sh -g -n "${SHARD}_${UNIQUE_NAME}")
++        IPADDRS="$MY_IPADDRESS $(echo $CLUSTER_ADDRESSES | perl -pe 's{,}{}g')"
+         read -a IPADDRS <<< $IPADDRS
+         # elif [ "${CONFIGINDEX}" == "0" ]; then
+         #     ./orchestrator.sh -c -n "CONFIG_${UNIQUE_NAME}"
+@@ -178,6 +178,7 @@ enabled=1" > /etc/yum.repos.d/mongodb-org-${version}.repo
+     
+     echo "net:" > mongod.conf
+     echo "  port:" >> mongod.conf
++    echo "  bindIp: [127.0.0.1,0.0.0.0,${MY_IPADDRESS}]"
+     echo "" >> mongod.conf
+     echo "systemLog:" >> mongod.conf
+     echo "  destination: file" >> mongod.conf
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'fixing cluster addresses stuff'
+[dev 5bf96ea] fixing cluster addresses stuff
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 368 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   dffe893..5bf96ea  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ irb
+1.9.3-p551 :001 > "hi"
+ => "hi" 
+1.9.3-p551 :002
+1.9.3-p551 :003 >   (false == true ? "yes" : "no")
+ => "no" 
+1.9.3-p551 :004 > action((("george@cloudcoreo.com".length > 0) and (! "coreo_owner".eql?("NOT_A_TAG"))) ? :notify : :nothing)
+NoMethodError: undefined method `action' for main:Object
+	from (irb):4
+	from /Users/paul.allen/.rvm/rubies/ruby-1.9.3-p551/bin/irb:12:in `<main>'
+1.9.3-p551 :005 > (("george@cloudcoreo.com".length > 0) and (! "coreo_owner".eql?("NOT_A_TAG"))) ? :notify : :nothing
+ => :notify 
+1.9.3-p551 :006 > 
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add .
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git pull
+remote: Counting objects: 29, done.        
+remote: Compressing objects: 100% (20/20), done.        
+remote: Total 29 (delta 22), reused 15 (delta 9), pack-reused 0        
+Unpacking objects: 100% (29/29), done.
+From github.com:CloudCoreo/mongodb-cluster
+   5bf96ea..6cb6667  dev        -> origin/dev
+ * [new branch]      config     -> origin/config
+Updating 5bf96ea..6cb6667
+error: Your local changes to the following files would be overwritten by merge:
+	boot-scripts/init.sh
+	config.yaml
+Please commit your changes or stash them before you merge.
+Aborting
+
+[1] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git stash
+Saved working directory and index state WIP on dev: 5bf96ea fixing cluster addresses stuff
+HEAD is now at 5bf96ea fixing cluster addresses stuff
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git pull
+Updating 5bf96ea..6cb6667
+Fast-forward
+ boot-scripts/init.sh | 63 ++++++++++++++++++++++++++++++++++++---------------------------
+ config.yaml          | 36 ++++++++++++++++++++++--------------
+ 2 files changed, 58 insertions(+), 41 deletions(-)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git stash pop
+Auto-merging config.yaml
+CONFLICT (content): Merge conflict in config.yaml
+Auto-merging boot-scripts/init.sh
+
+[1] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git add config.yaml 
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git commit -m 'adding a shard var'
+[dev 00eb0a7] adding a shard var
+ 2 files changed, 12 insertions(+)
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 719 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   6cb6667..00eb0a7  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 290 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To github.com:CloudCoreo/mongodb-cluster.git
+   00eb0a7..3958e68  dev -> dev
+
+[0] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ cd /tmp/m
+bash: cd: /tmp/m: No such file or directory
+
+[1] paul.allen@pallen-macbook-2 () {4} ~/git/cc/training/mongodb-cluster
+$ cd /tmp/
+
+[0] paul.allen@pallen-macbook-2 () {4} /tmp
+$ git clone git@github.com:pauldallen/scaletest.git
+Cloning into 'scaletest'...
+warning: You appear to have cloned an empty repository.
+
+[0] paul.allen@pallen-macbook-2 () {4} /tmp
+$ cd scaletest/
+
+[0] paul.allen@pallen-macbook-2 () {4} /tmp/scaletest
+$ mkdir services
+
+[0] paul.allen@pallen-macbook-2 () {4} /tmp/scaletest
+$ for x in `seq 1 10`; do echo "coreo_aws_ec2_elb \"c\" do\n  action :nothing\nend" >> services/config.rb; done
+
+[0] paul.allen@pallen-macbook-2 () {4} /tmp/scaletest
+$ for x in `seq 1 10`; do echo "coreo_aws_ec2_elb \"c\" do" >> services/config.rb; echo " action :nothing" >> services/config.rb; echo "end" >> services/config.rb; done
